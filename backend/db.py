@@ -4,7 +4,7 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 # --------- CONFIG ---------
 POSTGRES_USER = "postgres"
-POSTGRES_PASSWORD = "jana1234"
+POSTGRES_PASSWORD = "your_password_here"  # Replace with your actual password
 POSTGRES_HOST = "localhost"
 POSTGRES_PORT = "5432"
 DB_NAME = "crentex_demo"

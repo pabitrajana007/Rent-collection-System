@@ -63,4 +63,4 @@ A minimal and cost-effective MVP for a rent collection system that allows:
 ```bash
 cd backend
 pip install -r requirements.txt
-python main.py
+python app.py

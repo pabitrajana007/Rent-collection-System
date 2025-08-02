@@ -12,7 +12,7 @@ CORS(app)
 # --- PostgreSQL Connection ---
 DB_NAME = "crentex_demo"
 DB_USER = "postgres"
-DB_PASSWORD = "jana1234"
+DB_PASSWORD = "your_password_here"  # Replace with your actual password
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
