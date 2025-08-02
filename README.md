@@ -12,7 +12,6 @@ A minimal and cost-effective MVP for a rent collection system that allows:
 
 ### 👤 Tenant
 - Fill out a rent payment form (tenant name, amount)
-- Simulates rent payment (future-ready for Stripe/crypto integration)
 
 ### 🧑‍💼 Landlord
 - View rent payment history in a clean, tabular UI
@@ -28,32 +27,14 @@ A minimal and cost-effective MVP for a rent collection system that allows:
 - Modern, responsive UI with professional styling
 - View switching between Tenant and Landlord dashboard
 
----
-
-## 📂 Folder Structure
-
-/backend
-└── main.py # Flask server
-└── database.py # DB models + connection
-└── requirements.txt
-
-/frontend
-└── src/
-└── App.jsx # Main UI switcher
-└── TenantForm.jsx # Tenant rent form
-└── LandlordCard.jsx # Rent history view
-└── public/
-└── package.json
-
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Frontend**: React, HTML, CSS (inline for MVP)
+- **Frontend**: Reactjs
 - **Backend**: Python Flask
 - **Database**: PostgreSQL
-- **API Client**: Axios
 
 ---
 
@@ -71,7 +52,7 @@ A minimal and cost-effective MVP for a rent collection system that allows:
 - ✅ Stripe + Cryptocurrency integration
 - ✅ Multi-user auth (JWT or OAuth)
 - ✅ Dashboard filters & search
-- ✅ Deployment on Vercel + Render or Railway
+- ✅ Deployment on AWS
 
 ---
 
